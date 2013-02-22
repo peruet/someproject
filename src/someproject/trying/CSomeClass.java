@@ -12,8 +12,7 @@ public class CSomeClass {
 	
 	CSomeClass(int aa, String bb) {
 		if(bb == null) b = "";
-		else b = new String(bb);
-		
+		else b = new String(bb) + "ww";
 		a = aa;
 	}
 
